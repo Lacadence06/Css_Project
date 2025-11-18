@@ -1,0 +1,74 @@
+nav {
+    height: 50px; 
+    background-color: rgb(120, 198, 132);
+    border: solid gray 2px;
+
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;        
+}
+
+nav a {
+    text-decoration: none;       
+    color: white;                
+    font-weight: 500;            
+    padding: 8px 15px;          
+    border-radius: 5px;          
+}
+
+
+nav a:hover {
+    background-color: rgb(60, 160, 54);
+    color: white;
+}
+
+nav a:active {
+    background-color: rgb(40, 120, 40);
+    color: white;
+}
+
+nav a:focus {
+    outline: 2px solid rgb(40, 120, 40);
+    outline-offset: 2px;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(200, 240, 200);
+}
+img {
+    display: block;       
+    margin: 0 auto;      
+}
+.menu {
+    text-align: center;
+}
+
+.menu-principal {
+    background-color: rgb(200, 240, 200);
+    list-style-type: square;  
+    list-style-position: inside;
+}
+
+.item-menu {
+    margin-right: 20px;
+    font-family: "Roboto", sans-serif;
+}
+button {
+    padding: 12px 25px;   
+    font-size: 18px;      
+}
+footer {
+    text-align: center; 
+    padding: 20px 0;    
+    background-color: #f0f0f0; 
+}
+
+.structure {
+    display: inline-flex;       
+    justify-content: space-between; 
+    gap: 60px;                   
+    align-items: center;          
+}
